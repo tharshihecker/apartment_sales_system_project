@@ -1,0 +1,65 @@
+/*CSS for apartment*/
+body{
+	background-color:#bbd0ff;
+}
+
+h1{
+	color : #3652AD;
+	font-size:50px;
+	text-align:center;
+	margin-top:60px;
+}
+
+.im1{
+    border: solid 4px black;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+}
+
+.p1{
+    border: solid 4px black;
+    background: wheat;
+    margin-top: -4px; 
+    padding: 10px; 
+	display: inline-block;
+    width: 230px;
+    height: 100px;
+}
+
+.maindiv{
+	display : inline-block;
+	margin-right : 3%;
+	margin-left : 4%;
+	margin-bottom : 30px;
+}
+
+.maindiv:hover{
+	opacity:0.8;
+}
+
+.pc{
+	color : navy;
+}
+
+/*Search Bar */
+#box{
+    display: block;
+    position: relative;
+    height: 50px;
+    width: 300px;
+    margin: 5px auto 30px auto;
+}
+
+#box input[type="text"]{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 16px;
+	background-color: #E1F7F5;
+	color: black;
+}

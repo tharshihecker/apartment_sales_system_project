@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Online Apartment Sales System</title>
+		<link rel="icon" href="images/icon.jpg">
+		<link rel="stylesheet" href="CSS/contact.css">
+		<script src="JS/contact.js"></script>
+	</head>
+	<body>		
+		<div>
+		<h2>Get in Touch</h2>
+        <p id="para1">If you have questions?<br>You need assistance?<br>  Feel free to contact us using the form below or through the provided contact information.</p>
+        <form id="contactForm" action="contact.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+                
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+                
+			<label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+                
+			<input type="submit" name="btnsubmit" id="btnsubmit" value="Submit">
+        </form>
+			
+		<center>
+			<p>Feel free to contact us via our social media accounts or by phone:</p>
+         <div>  
+		 
+            <a id="a1" href="https://www.instagram.com" onmouseover="show('a1')"onmouseout="hide('a1')">Instagram </a> |
+			
+            <a id="a2" onmouseover="show('a2')" onmouseout="hide('a2')" href="https://www.facebook.com">  Facebook </a> | 
+			<a id "a3" onmouseover="show('a3')" onmouseout="hide('a3')" href="https://whatsapp.com/channel/0029VaFMkzeK0IBcnvLzdK0B">📞+94 772345677</a>
+		</div>
+		<img id="image1" >
+        </center>    
+		
+		<footer>
+			<p>&copy; 2024 Apartment Sales System. All rights reserved.</p>
+		</footer>
+		</div>
+	</body>
+</html>
